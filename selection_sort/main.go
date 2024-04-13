@@ -16,7 +16,7 @@ func findSmallest(list []int) int {
 	return smallestIndex
 }
 
-// time complexity O(n)
+// time complexity O(n^2)
 func selectionSort(list []int) []int {
 	newArr := make([]int, len(list))
 
